@@ -14,5 +14,7 @@ int main()
 {
     // main code goes here
     int a{34}, b{54}, c{65};
+    cout << "Enter three numbers : " << endl;
+    cin >> a >> b >> c;
     cout << largestOfThree(a, b, c) << endl;
 }
